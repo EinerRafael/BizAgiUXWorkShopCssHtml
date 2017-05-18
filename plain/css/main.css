@@ -1,0 +1,28 @@
+/**
+    Pallete
+*/
+/**
+* Maditions
+*/
+/* Reset definitions */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+/* Main containers */
+.Main_header {
+  background: #36444c;
+  height: 70px;
+}
+.Main_content {
+  height: calc(100% -  120px);
+  overflow-y: auto;
+}
+.Main_footer {
+  background: #edf1f4;
+  height: 50px;
+}
