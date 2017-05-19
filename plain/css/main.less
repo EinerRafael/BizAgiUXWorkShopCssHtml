@@ -27,3 +27,20 @@ html, body{
     background: @footer_color; 
     height: @Main_footer--height;
 }
+
+/* Components in Page */
+
+.Section_Definition{
+    &__Header_Section{
+        &__h1{
+            font-size: 1.3em;
+            color: @section_definition_title_h1--color;
+        }
+        &__h2{
+            font-size: 1.4em;
+            color: @section_definition_title_h2--color;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+    }
+}
