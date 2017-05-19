@@ -2,7 +2,7 @@
     Pallete
 */
 /**
-* Maditions
+* Meditions
 */
 /* Reset definitions */
 * {
@@ -27,13 +27,51 @@ body {
   height: 50px;
 }
 /* Components in Page */
-.Section_Definition__Header_Section__h1 {
+.Section_Definition__Header__h1 {
   font-size: 1.3em;
   color: #80a5b8;
 }
-.Section_Definition__Header_Section__h2 {
+.Section_Definition__Header__h2 {
   font-size: 1.4em;
   color: #59676e;
   font-weight: bold;
   margin-top: 0px;
+}
+.Section_Definition__Content {
+  margin-top: 5px;
+}
+.Card_Definition {
+  background-color: #f1f1f1;
+}
+.Card_Definition__List {
+  list-style: none;
+}
+.Card_Definition__List_Item {
+  border-bottom: 1px solid #b8c1c5;
+  display: table;
+  padding: 10px 3px;
+  width: 100%;
+}
+.Card_Definition__List_Item__Icon {
+  color: #99a1a5;
+  display: table-cell;
+  width: 32px;
+}
+.Card_Definition__List_Item__Text {
+  display: table-cell;
+  width: 90%;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.Card_Definition__List_Item__Text span {
+  font-size: .95em;
+  font-style: italic;
+}
+.Card_Definition__List_Item__Quantity {
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.Card_Definition__List_Item.Last {
+  border: none;
 }

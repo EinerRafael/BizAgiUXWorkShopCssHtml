@@ -31,7 +31,7 @@ html, body{
 /* Components in Page */
 
 .Section_Definition{
-    &__Header_Section{
+    &__Header{
         &__h1{
             font-size: 1.3em;
             color: @section_definition_title_h1--color;
@@ -41,6 +41,51 @@ html, body{
             color: @section_definition_title_h2--color;
             font-weight: bold;
             margin-top: 0px;
+        }
+    }
+
+    &__Content{
+        margin-top: 5px;
+    }
+}
+
+.Card_Definition{
+    background-color: @card_definition_background--color;
+    &__List{
+        list-style: none;
+
+        &_Item{
+            border-bottom: 1px solid #b8c1c5;
+            display: table;
+            padding: 10px 3px;
+            width: 100%;
+
+            &__Icon{
+                color: @card_definition_item_icon--color;
+                display: table-cell;                
+                width: 32px;
+            }
+
+            &__Text{
+                display: table-cell;
+                width: 90%;
+                vertical-align: middle;
+                padding-left: 5px;
+                span{                    
+                    font-size: .95em;
+                    font-style: italic;
+                }
+            }
+
+            &__Quantity{
+                float: right;
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+
+            &.Last{
+                border: none;
+            }
         }
     }
 }
